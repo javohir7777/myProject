@@ -1,0 +1,17 @@
+.section-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 67px 0 0 0;
+  .section-logo__text {
+    width: 243px;
+    color: #2a2c1f;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 27px;
+  }
+  .section-logo__logos {
+    display: flex;
+    gap: 17px;
+  }
+}

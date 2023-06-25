@@ -1,0 +1,173 @@
+// .section-img {
+//   margin: 0 auto;
+//   max-width: 1366px;
+//   .section-img__grid {
+//     display: flex;
+//     .section-img__texts {
+//       background: #f5f5f2;
+//       .section-img__textInput {
+//         padding: 11px 80px;
+//         .find {
+//           border-radius: 32px;
+//           background: #e7e8e3;
+//           width: 171px;
+//           height: 29px;
+//           color: #2a2c1f;
+//           font-size: 14px;
+//           font-family: Roboto;
+//           line-height: 21px;
+//           padding: 4px 12px;
+//         }
+//         h1 {
+//           padding: 18px 0 0 0;
+//           color: #2a2c1f;
+//           font-size: 54px;
+//           font-family: Roboto;
+//           font-weight: 400;
+//           line-height: 67.2px;
+//         }
+//         p {
+//           padding: 18px 0 19px 0;
+//           color: #65665c;
+//           font-size: 19px;
+//           font-family: Roboto;
+//           line-height: 30px;
+//         }
+//         .section-img__input {
+//           display: flex;
+//           gap: 15px;
+//           .section-img__inputs {
+//             display: flex;
+//             align-items: center;
+//             width: 300px;
+//             height: 48px;
+//             border-radius: 6px;
+//             border: 1px solid #e7e8e3;
+//             background: #fff;
+//             box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+//             img {
+//               padding: 12px 16px 12px 16px;
+//             }
+//             input {
+//               width: 245px;
+//               height: 35px;
+//               outline: none;
+//               border: none;
+//             }
+//             ::placeholder {
+//               color: #65665c;
+//               font-size: 20px;
+//               font-family: Roboto;
+//               line-height: 30px;
+//             }
+//           }
+//           button {
+//             border-radius: 6px;
+//             border: 1px solid #cf6f49;
+//             background: #cf6f49;
+//             color: #fff;
+//             font-size: 20px;
+//             font-family: Roboto;
+//             line-height: 30px;
+//             font-weight: 300;
+//             padding: 9px 18px;
+//           }
+//         }
+//       }
+//       .section-img__vector {
+//         float: right;
+//       }
+//     }
+//     // .img {
+//     //   background-image: url("../../devan.png");
+//     //   background-repeat: no-repeat;
+//     //   background-size: cover;
+//     // }
+//   }
+// }
+
+.section-img {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  .section-img__texts {
+    width: 50%;
+    background: #f5f5f2;
+    .section-img__textInput {
+      padding: 15px 70px 27px;
+      .find {
+        width: 171px;
+        height: 29px;
+        padding: 4px 12px;
+        border-radius: 32px;
+        background: #e7e8e3;
+        color: #2a2c1f;
+        font-size: 14px;
+        font-family: Roboto;
+        line-height: 21px;
+      }
+      h1 {
+        color: #2a2c1f;
+        font-size: 56px;
+        font-family: Roboto;
+        line-height: 67.2px;
+        font-weight: 400;
+      }
+      p {
+        color: #65665c;
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 30px;
+      }
+      .section-img__input {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .section-img__inputs {
+          display: flex;
+          align-items: center;
+          width: 300px;
+          height: 48px;
+          border-radius: 6px;
+          border: 1px solid #e7e8e3;
+          background: #fff;
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+          img {
+            padding: 12px 16px 12px 16px;
+          }
+          input {
+            width: 245px;
+            height: 35px;
+            outline: none;
+            border: none;
+          }
+          ::placeholder {
+            color: #65665c;
+            font-size: 20px;
+            font-family: Roboto;
+            line-height: 30px;
+          }
+        }
+        button {
+          padding: 9px 18px 11px;
+          border-radius: 6px;
+          border: 1px solid #cf6f49;
+          background: #cf6f49;
+          color: #fff;
+          font-size: 20px;
+          font-family: Roboto;
+          line-height: 30px;
+        }
+      }
+    }
+    .section-img__vektor2 {
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      margin-top: 60px;
+    }
+  }
+  .section-img__images {
+    width: 50%;
+  }
+}

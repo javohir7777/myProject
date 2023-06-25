@@ -1,0 +1,20 @@
+header {
+  background-color: #939878;
+  .header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-family: Roboto;
+      line-height: 21px;
+      margin: 0;
+      padding: 0;
+    }
+    .close {
+      padding: 0 40px 0 0;
+      cursor: pointer;
+    }
+  }
+}
