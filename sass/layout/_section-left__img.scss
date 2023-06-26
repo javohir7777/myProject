@@ -107,6 +107,18 @@
     }
   }
 }
+@media only screen and (max-width: 1199px) {
+  .section-left__img {
+    gap: 20px;
+    .section-left__imgs {
+      width: 50%;
+      img {
+        width: 320px;
+        height: 350px;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 991px) {
   .section-left__img {
     display: block;

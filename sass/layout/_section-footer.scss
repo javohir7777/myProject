@@ -48,6 +48,9 @@
     }
   }
   .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0 0 120px 0;
     .col-12 {
       .card {
@@ -127,10 +130,13 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .section-footer {
-    .section-footer__flex {
-      .section-footer__p {
-        width: 476px;
+  .container {
+    max-width: none !important;
+    .section-footer {
+      .section-footer__flex {
+        .section-footer__p {
+          width: 476px;
+        }
       }
     }
   }
