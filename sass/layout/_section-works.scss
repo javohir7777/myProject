@@ -21,6 +21,7 @@
   .section-works__flex {
     padding: 61px 0 0 0;
     display: flex;
+    justify-content: center;
     gap: 32px;
     .section-works__card {
       display: flex;
@@ -58,6 +59,54 @@
         font-size: 16px;
         font-family: Roboto;
         line-height: 24px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .section-works {
+    .section-works__flex {
+      gap: 15px;
+    }
+  }
+}
+@media only screen and (max-width: 1065px) {
+  .section-works {
+    .section-works__flex {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-works {
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+      .section-works__p {
+        width: 554px;
+      }
+      .section-works__flex {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .section-works {
+    .container {
+      max-width: none;
+      margin: 0 auto;
+      .section-works__p {
+        width: 300px;
+      }
+      .section-works__flex {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
       }
     }
   }

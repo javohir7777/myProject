@@ -5,6 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .navbar__brand {
+      .menu {
+        display: none;
+      }
+    }
     .navbar__textBtn {
       display: flex;
       align-items: center;
@@ -23,6 +28,10 @@
             font-size: 16px;
             font-family: Roboto;
             line-height: 24px;
+            &:hover {
+              font-weight: 700;
+              transform: 2s;
+            }
           }
         }
         .nav-input {
@@ -75,6 +84,51 @@
           &:active {
             box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
           }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav-bg {
+    .navbar-flex {
+      display: block;
+      .navbar__textBtn {
+        display: block;
+        margin-top: 20px;
+        .btn {
+          margin-top: 10px;
+          margin-left: -10px;
+          gap: 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-bg {
+    .container {
+      max-width: none;
+      .navbar-flex {
+        padding: 0 0 0 30px;
+        .navbar__brand {
+          .menu {
+            display: inline;
+            float: right;
+            padding: 0 30px 0 0;
+          }
+        }
+        .navbar__textBtn {
+          display: none;
+          .nav-menu {
+            display: block;
+            .nav-menu__link {
+              padding: 0 0 5px 5px;
+            }
+          }
+        }
+        .block {
+          display: block;
         }
       }
     }
